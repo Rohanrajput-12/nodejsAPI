@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_app",
+  "version": "1.0.0",
+  "description": " nodejs application which make a API call to push user info to mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon  C:\\Users\\Santosh\\Desktop\\NodeJS-app\\app.js"
+  },
+  "author": "Rohan rajput",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.9",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
